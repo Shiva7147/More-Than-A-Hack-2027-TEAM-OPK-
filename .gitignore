@@ -45,9 +45,11 @@ data/*
 # The 2026 edition's documents were moved to ../mtah2027-organizers/archive-2026/ -- they describe
 # a different competition and belong with the organiser tooling, not in this repository.
 #
-# *.pdf stays as insurance: internal decks and proposals have a habit of landing in the working
+# *.pdf
+!OPK.pdf stays as insurance: internal decks and proposals have a habit of landing in the working
 # tree, and this repository is public.
 *.pdf
+!OPK.pdf
 
 # Organiser tooling lives in ../mtah2027-organizers, outside this repository. This line is
 # insurance against it being recreated in here by habit.

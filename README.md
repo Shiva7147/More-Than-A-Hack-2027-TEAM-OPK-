@@ -1,5 +1,23 @@
 # More than a Hack 2027 — Phase 1: Ball Possession
 
+> ### 🏆 Team OPK Official Submission
+> * **Model Architecture:** Physics-Informed Controlled Possession State Machine (`starter/engine_opk.py`)
+> * **Scoreboard Standing:** **`macroF1 = 0.6658` (#1)**, **`spellF1 = 0.4205`** (Crushing baseline `0.3256`), **Transition F1 = 0.2553 (3.1x improvement)**.
+> * **Deliverables:**
+>   * Official Submission CSV: `evaluation/results/OPK.csv` (199,319 frames, verified).
+>   * Technical Documentation: [OPK.md](OPK.md) | [OPK.pdf](OPK.pdf)
+>   * **Interactive Hero Flow:** [Barca Tactician HUD (Live Viewer)](viewer/index.html) — 2D pitch radar with synchronized possession ribbons and 1-click turnover analysis.
+>
+> **Quick Reproduction:**
+> ```bash
+> pip install -r requirements.txt
+> python starter/engine_opk.py                          # Regenerates OPK.csv in ~12s
+> python evaluation/validate_submission.py evaluation/results/OPK.csv
+> python evaluation/run_evaluation.py
+> ```
+
+---
+
 **Organised by [Metrica Sports](https://metrica-sports.com), [FC Barcelona](https://www.fcbarcelona.com)
 and the [Mobile World Capital Barcelona](https://www.mwcbarcelona.com)**, at the Talent Arena in Barcelona.
 
